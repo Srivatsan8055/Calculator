@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+  background-color: #ee82ee;
+}
+.calci {
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.25px;
+  text-align: center;
+}
+#display {
+  background: white;
+  border-radius: 30px;
+  width: 245px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  height: 60px;
+  margin: auto;
+  border: 2px solid white;
+  color: black;
+}
+.btnDesign {
+  width: 55px;
+  height: 55px;
+  padding-top: -1;
+  background-color: white;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 1.5px;
+}
+.btnDesign:hover {
+  background: #6a5acd;
+}
+
+.operatorDesign {
+  width: 55px;
+  height: 55px;
+  background: white;
+  padding-top: -1;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 1.5px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+.operatorDesign:hover {
+  background: #009dff;
+
+}
+#zero {
+  width: 116px;
+  height: 55px;
+  padding-top: -1;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 1.5px;
+  background: white;
+}
+#zero:hover{
+  background: #6a5acd;
+}
+h1 {
+  color: white;
+  margin-top: 300px;
+  margin-left: 100px;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 50px;
+}
+h1:hover {
+  color: #6a5acd;
+}
+
+h2 {
+  color: white;
+  margin-top: -1px;
+  margin-left: 400px;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 40px;
+}
+h2:hover {
+  color: #6a5acd;
+}
